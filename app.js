@@ -53,3 +53,15 @@ function splitLetters(word) {
 changeWord();
 setInterval(changeWord, 4000);
 
+
+let myModal = document.getElementById('myModal')
+let myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+
+$(document).ready(function() {
+  $("#MyModal").modal();
+});
+
