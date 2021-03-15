@@ -1104,42 +1104,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 }
 
 
-  
-/*   
-  .nav-pills .nav-item .nav-link .deco{
-    color: #000;
-    font-weight: 500;
-  } */
-
-  
-  /* .nav-link.active:hover .deco {
-    color: #000;
-    font-weight: 500;
-  } */
-  
-
-  /* ending styles for profile section */
- 
-
-
-
-
-/* begining styles for About Image */
-
-
-/* Right Hand Div */
-
-/* body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-} */
-
-/* ending styles for About Image */
-
-
-
-
 
 /* begining styles for animated text */
 .text {
@@ -1218,9 +1182,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 @media(max-width: 1450px) {
 
   /* Profile Page */
-  .gap {
-    padding-right: 90px;
-  }
 
   .gap2 {
     padding-right: 0px;
