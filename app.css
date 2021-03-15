@@ -43,18 +43,16 @@
 
 
 
-  body {
+body{
     background-color: rgba(25,25,25,0.9);
       /* background: #101010; */
   } 
  
-  .navcolor{
+.navcolor{
     /* background: #101010; */
     /* background: rgba(16, 16, 16,0.8); */
     background: #000;
   }
-
-
 
 
 .nav-link-a {
@@ -117,50 +115,18 @@
     /* height:100vh ; */
     height:92.5vh ;
     }
-  
-    
+     
     .project2 {
       /* height:90vh ; */
       background-color: rgba(16, 16, 16,0.9);
       }
   
-    .buffer {
-      padding-top: 200px;
-    }
-  
-    .buffer2 {
-      /* padding-top: 280px; */
-      padding-top: 340px;
-    }
-  
-    .buffer3 {
-      padding-top: 50px;
-    }
-  
-   .text-size {
-    font-size: 50px;
-    }
-
-
-    .gap {
-      padding-right: 90px;
-    }
     .gap2{
       padding-right: 0px;
       background-color: rgba(31, 35, 54,1);
     }
-    .gap3 {
-      padding-right: 120px;
-     }
 
-    .shift {
-      padding-top: 125px;
-      padding-left: 30px;
-  }
-  .shift2 {
-    padding-top: 138px;
-    padding-left: 30px;
-}
+ 
   .resize-font {
     font-size: 17px;
     font-weight: 100;
@@ -611,7 +577,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   /* transition: transform .5s ease; */
   transition: all .2s ease-in-out; 
   transform: scale(1.04);
-  background-color: #2b2e42;
+  /* background-color: #2b2e42; */
+  background-color: #202130;
 }
 
 .img-text {
@@ -997,7 +964,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   /* transition: transform .5s ease; */
   transition: all .2s ease-in-out; 
   transform: scale(1.04);
-  background-color: #2b2e42;
+  /* background-color: #2b2e42; */
+  background-color: #202130;
 }
 
 .project-view {
@@ -1136,42 +1104,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 }
 
 
-  
-/*   
-  .nav-pills .nav-item .nav-link .deco{
-    color: #000;
-    font-weight: 500;
-  } */
-
-  
-  /* .nav-link.active:hover .deco {
-    color: #000;
-    font-weight: 500;
-  } */
-  
-
-  /* ending styles for profile section */
- 
-
-
-
-
-/* begining styles for About Image */
-
-
-/* Right Hand Div */
-
-/* body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-} */
-
-/* ending styles for About Image */
-
-
-
-
 
 /* begining styles for animated text */
 .text {
@@ -1250,9 +1182,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 @media(max-width: 1450px) {
 
   /* Profile Page */
-  .gap {
-    padding-right: 90px;
-  }
 
   .gap2 {
     padding-right: 0px;
