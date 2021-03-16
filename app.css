@@ -1107,13 +1107,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
 /* begining styles for animated text */
 .text {
-  /* position: absolute;
-  width: 450px;
-  left: 50%;
-  margin-left: -225px;
-  height: 40px;
-  top: 50%;
-  margin-top: -20px; */
   padding-right: 130px;
   padding-left: 140px;
 }
@@ -1197,12 +1190,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 600;
   margin: 0;
   padding: 1px 1px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1);*/
 }
 
 
@@ -1212,12 +1201,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 600;
   margin: 0;
   padding: 1px 1px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1); */
 }
 
 }
@@ -1236,7 +1221,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   border-width: 0 1px 0 0;
   border-color: rgba(255,255,255,.05);
   border-radius: 0 0 0 0;
-  /* background-color: #2a2c47; */
   background-color: rgba(31, 35, 54,1);
 }
 
@@ -1280,12 +1264,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
     font-weight: 600;
     margin: 0;
     padding: 1px 37px;
-    /* border-style: solid; */
     border-width: 0 1px 0 0;
     border-color: rgba(31, 35, 54,1);
-    /* border-radius: 0 0 0 0; */
-    /* background-color: #2a2c47; */
-    /* background-color: rgba(31, 35, 54,1); */
   }
   
   .nav.nav-pills .nav-item .nav-link .deco.fourth, .deco.last {
@@ -1294,25 +1274,18 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
     font-weight: 600;
     margin: 0;
     padding: 1px 42px;
-    /* border-style: solid; */
     border-width: 0 1px 0 0;
     border-color: rgba(31, 35, 54,1);
-    /* border-radius: 0 0 0 0; */
-    /* background-color: #2a2c47; */
-    /* background-color: rgba(31, 35, 54,1); */
   }
+
   .nav.nav-pills .nav-item .nav-link .deco.last {
     border-radius: 0px;
     font-size: 22px;
     font-weight: 600;
     margin: 0;
     padding: 1px 42px;
-    /* border-style: solid; */
     border-width: 0 1px 0 0;
     border-color: rgba(31, 35, 54,1);
-    /* border-radius: 0 0 0 0; */
-    /* background-color: #2a2c47; */
-    /* background-color: rgba(31, 35, 54,1); */
   }
 
 }
@@ -1346,12 +1319,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 600;
   margin: 0;
   padding: 1px 25px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1); */
 }
 
 .nav.nav-pills .nav-item .nav-link .deco.fourth {
@@ -1360,12 +1329,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 600;
   margin: 0;
   padding: 1px 25px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1); */
 }
 
 .nav.nav-pills .nav-item .nav-link .deco.last{
@@ -1374,12 +1339,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 600;
   margin: 0;
   padding: 14px 25px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1);*/
 }
 
 }
@@ -1404,7 +1365,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
     border-width: 0 1px 0 0;
     border-color: rgba(255,255,255,.05);
     border-radius: 0 0 0 0;
-    /* background-color: #2a2c47; */
     background-color: rgba(31, 35, 54,1);
 }
 
@@ -1415,12 +1375,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 700;
   margin: 0;
   padding: 1px 1px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1); */
 }
 
 .nav.nav-pills .nav-item .nav-link .deco.fourth {
@@ -1429,12 +1385,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 700;
   margin: 0;
   padding: 1px 5px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1); */
 }
 
 .nav.nav-pills .nav-item .nav-link .deco.last{
@@ -1443,12 +1395,9 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   font-weight: 700;
   margin: 0;
   padding: 1px 1px;
-  /* border-style: solid; */
   border-width: 0 1px 0 0;
   border-color: rgba(31, 35, 54,1);
-  /* border-radius: 0 0 0 0; */
-  /* background-color: #2a2c47; */
-  /* background-color: rgba(31, 35, 54,1);*/
+
 }
 
 .nav-pills .nav-item .nav-link.active {
