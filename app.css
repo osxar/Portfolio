@@ -4,6 +4,33 @@
 :root {
     --mainColor: #cf000f;
   }
+
+  #home {
+    background: url('./assets/hero.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .black-overlay {
+    background: #000000e6;
+    height: 100%;
+  }
+
+  .about-me__profile {
+    width: 100px;
+    height: 100px;
+    background: url(./assets/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  .navbar-fixed-top {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+  }
   
   /* #ff9800; */
 
@@ -44,7 +71,8 @@
 
 
 body{
-    background-color: rgba(25,25,25,0.9);
+    background-color: #fff;
+    /* background-color: rgba(25,25,25,0.9); */
       /* background: #101010; */
   } 
  
@@ -112,8 +140,8 @@ body{
 
   
   .project {
-    /* height:100vh ; */
-    height:92.5vh ;
+    height:100vh ;
+    /* height:92.5vh ; */
     }
      
     .project2 {
@@ -200,7 +228,7 @@ body{
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
   /* text-align-last: center; */
 }
 
