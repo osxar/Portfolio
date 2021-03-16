@@ -820,10 +820,7 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 .skill-bars .bar .progress-line{
   height: 5px;
   width: 100%;
-  /* background: #f0f0f0; */
   background: rgba(31, 34, 53,1);
-  /* rgb(31, 34, 53) */
-  /* #1f2235; */
   position: relative;
   transform: scaleX(0);
   transform-origin: left;
@@ -953,7 +950,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 /* Project Section */
 
 .card-cert-pjt {
-  /* background-color: rgba(31, 35, 54,0.9); */
   background-color: #313552;
   width: 19rem;
   height: auto;
@@ -961,10 +957,8 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 }
 
 .card-cert-pjt:hover {
-  /* transition: transform .5s ease; */
   transition: all .2s ease-in-out; 
   transform: scale(1.04);
-  /* background-color: #2b2e42; */
   background-color: #202130;
 }
 
@@ -1005,7 +999,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
 
 .learn-more-btn {
-  /* background-color: #000; */
   background-color: #313552;
   border-color: #FFC576;
   color: #FFC576;
@@ -1024,7 +1017,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 }
 
 .learn-more-btn:hover {
-  /* background-color: #000; */
   background-color: #FFC576;
   border-color: #FFC576;
   color: #000;
