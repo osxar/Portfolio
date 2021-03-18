@@ -5,22 +5,18 @@
     --mainColor: #cf000f;
   }
   
-  /* #ff9800; */
+  #home {
+    background: url('./assets/hero.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-  /* .navstyle {
-    background:
-       linear-gradient(
-         to right,
-         var(--mainColor) 0%,
-         var(--mainColor) 5px,
-         transparent 5px
-       );
-    background-repeat: repeat-x;
-    background-size: 100%;
-    color: #000;
-    padding-left: 10px;
-    text-decoration: none;
-  } */
+  .black-overlay {
+    background: #000000e6;
+    height: 100%;
+  }
+
   
   .navstyle:hover {
     background:
