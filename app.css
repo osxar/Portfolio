@@ -31,36 +31,22 @@
 
 
 
-
-
-
-
-
-
-
-
 body{
     background-color: rgba(25,25,25,0.9);
-      /* background: #101010; */
   } 
  
 .navcolor{
-    /* background: #101010; */
-    /* background: rgba(16, 16, 16,0.8); */
     background: #000;
   }
 
 
 .nav-link-a {
-    /* color: rgba(255,255,255,0.5); */
     color: rgba(255,197,118,0.5);
     border-bottom: 0.15rem solid transparent;
 }
 
 .nav-link-a:hover{
-    /* color: rgba(255,255,255,0.5); */
     color: rgba(255,197,118,0.5);
-    /* border-bottom-color:rgba(255,255,255,0.5); */
     border-bottom-color:rgba(255,197,118,0.5);
 }
 
@@ -75,7 +61,6 @@ body{
 
 .nav-social {
     display: inline-block;
-    /* padding-right: 1rem; */
    }
 
 .nav-link-a {
@@ -108,12 +93,10 @@ body{
 
   
   .project {
-    /* height:100vh ; */
     height:92.5vh ;
     }
      
     .project2 {
-      /* height:90vh ; */
       background-color: rgba(16, 16, 16,0.9);
       }
   
@@ -139,12 +122,6 @@ body{
   padding-top: 140px;
 }
 
-
-/* 
-.card-cert-gap {
-  padding-left: 83px;
-  padding-top: 65px;
-} */
 
 /* ending of styles */
 
