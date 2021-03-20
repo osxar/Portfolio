@@ -153,6 +153,11 @@ body{
 /* Home style */
 
 /* project */
+.home-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
 .text-a {
   font-family: 'Ubuntu', sans-serif;
@@ -188,7 +193,7 @@ body{
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
   /* text-align-last: center; */
 }
 
@@ -197,7 +202,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align-last: center;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
     justify-content: left;
 }
 
@@ -209,7 +214,7 @@ body{
 @media(max-width:1205px){
 .home-upper{
 justify-content: center;
-padding-left: 3rem;
+/* padding-left: 3rem; */
 }
 .text-a {
   font-size: 2rem;
@@ -242,7 +247,7 @@ text-align: center;
 /* About Page */
 .about-padding{
   padding-top:4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .header-section2{
