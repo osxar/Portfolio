@@ -35,6 +35,23 @@ body{
     background-color: rgba(25,25,25,0.9);
   } 
  
+.o-style{
+  color: crimson;
+  font: 400px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0px;
+}
+
+.brand-style{
+  color: rgba(255,255,255,.55);
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    width: 100%;
+}
+
 .navcolor{
     background: #000;
   }
@@ -77,8 +94,6 @@ body{
     border-bottom-color:#000;
 
 }
-
-
 }
   
   
@@ -93,7 +108,7 @@ body{
 
   
   .project {
-    height:92.5vh ;
+    height:100vh ;
     }
      
     .project2 {
@@ -225,13 +240,17 @@ text-align: center;
 
 
 /* About Page */
+.about-padding{
+  padding-top:4rem;
+  padding-bottom: 2rem;
+}
 
 .header-section2{
   display: flex;
   /* align-items: center; */
   justify-content: center;
   /* text-align: center; */
-  padding-top: 2.6rem;
+  /* padding-top: 2.6rem; */
 }
 .about-body {
   padding-top: 5rem;
@@ -371,6 +390,10 @@ text-align: center;
 
 /* begining styles for profile section */
 
+.profile-padding{
+  padding-top:5rem;
+  padding-bottom: 5rem;
+}
 
 .nav.nav-pills .nav-item .nav-link {
   border-radius: 0px;
