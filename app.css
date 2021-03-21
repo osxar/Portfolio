@@ -647,6 +647,12 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   padding-left: 5rem;
 }
 
+@media(max-width:993px){
+  .extra-space {
+    padding-bottom: 1.3rem;
+  }
+}
+
 @media(max-width:755px){
   .card-right {
     padding-right: 0rem;
@@ -657,12 +663,19 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   }
 }
 
+@media(max-width:322px){
+  .extra-space {
+    padding-bottom: 0rem;
+}
+
+}
+
 
 /* education */
 
 .edu-view {
   align-self: center;
-  padding-left: 5rem;
+  padding-left: 3rem;
 }
 
 .edu-top{
@@ -700,7 +713,7 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 @media(max-width:1444px){
   .edu-view {
     align-self: center;
-    padding-left: 3.5rem;
+    padding-left: 2.5rem;
   }
 
 }
@@ -767,9 +780,36 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 }
 
 
+@media(max-width:362px){
+  .txt-a{
+  font-size: 1rem;
+}
+
+}
+
+.volut-space {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 
+@media(max-width:362px){
 
+  .volut-space {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+}
+
+@media(max-width:362px){
+
+  .volut-space {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+}
 
 
 /* begining of skills tab */
@@ -848,36 +888,36 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
   animation: animate 0.7s 0.7s cubic-bezier(1,0,0.5,1) forwards;
 }
-.bar .progress-line.html span{
-  width: 90%;
-}
-.bar .progress-line.css span{
-  width: 60%;
-}
-.bar .progress-line.jquery span{
-  width: 85%;
-}
 .bar .progress-line.python span{
-  width: 50%;
+  width: 91%;
 }
-.bar .progress-line.mysql span{
-  width: 75%;
-}
-/*      */
-.bar .progress-line.autocad span{
-  width: 96%;
-}
-.bar .progress-line.react span{
-  width: 95%;
+.bar .progress-line.javascript span{
+  width: 89%;
 }
 .bar .progress-line.java span{
-  width: 94%;
+  width: 82%;
 }
-.bar .progress-line.bootstrap span{
+.bar .progress-line.mql4 span{
   width: 93%;
 }
 .bar .progress-line.mongodb span{
-  width: 92%;
+  width: 82%;
+}
+/*      */
+.bar .progress-line.htmlcss span{
+  width: 85%;
+}
+.bar .progress-line.reactredux span{
+  width: 82%;
+}
+.bar .progress-line.express span{
+  width: 84%;
+}
+.bar .progress-line.node span{
+  width: 82%;
+}
+.bar .progress-line.ejs span{
+  width: 85%;
 }
 .progress-line span::before{
   position: absolute;
@@ -911,37 +951,37 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
     opacity: 1;
   }
 }
-.progress-line.html span::after{
-  content: "90%";
-}
-.progress-line.css span::after{
-  content: "60%";
-}
-.progress-line.jquery span::after{
-  content: "85%";
-}
 .progress-line.python span::after{
-  content: "50%";
+  content: "91%";
 }
-.progress-line.mysql span::after{
-  content: "75%";
-}
-
-/*      */
-.progress-line.autocad span::after{
-  content: "96%";
-}
-.progress-line.react span::after{
-  content: "95%";
+.progress-line.javascript span::after{
+  content: "89%";
 }
 .progress-line.java span::after{
-  content: "94%";
+  content: "82%";
 }
-.progress-line.bootstrap span::after{
+.progress-line.mql4 span::after{
   content: "93%";
 }
 .progress-line.mongodb span::after{
-  content: "92%";
+  content: "82%";
+}
+
+/*      */
+.progress-line.htmlcss span::after{
+  content: "85%";
+}
+.progress-line.reactredux span::after{
+  content: "82%";
+}
+.progress-line.express span::after{
+  content: "84%";
+}
+.progress-line.node span::after{
+  content: "82%";
+}
+.progress-line.ejs span::after{
+  content: "85%";
 }
 
 /* ending of skills tab */
