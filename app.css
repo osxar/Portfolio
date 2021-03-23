@@ -34,9 +34,14 @@
 body{
     background-color: rgba(25,25,25,0.9);
   } 
+
+.home-text-white {
+    color: rgba(255,255,255,0.85);
+}
  
 .o-style{
-  color: crimson;
+  /* color: crimson; */
+  color: rgb(180, 120, 36);
   font: 400px;
   font-size: 1.25rem;
   font-weight: 700;
@@ -185,7 +190,8 @@ body{
 
 .project .text-b span {
   /* color: #c0392b; */
-  color: crimson;
+  /* color: crimson; */
+  color: rgb(180, 120, 36);
 }
 
 
@@ -416,13 +422,16 @@ text-align: center;
 
 .nav-pills .nav-item .nav-link.active {
   color: #fff;
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
 }
 
 .nav-pills .nav-item .nav-link:hover{
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
+  color: rgba(255,255,255,0.85);
 }
 
 .nav-link.active .deco {
@@ -447,6 +456,16 @@ text-align: center;
 
 
 /* experience and Volunter experience */
+
+.notify{
+cursor: pointer;
+}
+
+.fnt {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
 .profile-content {
   background-color: rgba(31, 35, 54,0.7);
@@ -516,6 +535,12 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   .pan-view-items-2 {
     padding-top: 2rem;
 }
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+}
+
 }
 
 @media(max-width:755px){
@@ -792,6 +817,12 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   padding-bottom: 2rem;
 }
 
+@media(max-width:416px){
+
+.ff {
+    width: 50%;
+}
+}
 
 @media(max-width:362px){
 
@@ -800,6 +831,10 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
     padding-bottom: 1rem;
   }
 
+.ff {
+    width: 40%;
+}
+  
 }
 
 @media(max-width:362px){
@@ -989,7 +1024,11 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
 
 /* Project Section */
-
+.link-disabled{
+  opacity: .4;
+  cursor: default !important;
+  pointer-events: none;
+}
 .card-cert-pjt {
   background-color: #313552;
   width: 19rem;
@@ -1259,13 +1298,16 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
 .nav-pills .nav-item .nav-link.active {
   color: #fff;
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
 }
 
 .nav-pills .nav-item .nav-link:hover{
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
+  color: rgba(255,255,255,0.85);
 }
 
 
@@ -1280,13 +1322,16 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   
   .nav-pills .nav-item .nav-link.active {
     color: #fff;
-    background-color: #FFC576;
+    /* background-color: #FFC576; */
+    background-color: rgb(180, 120, 36);
     border-radius: 0px;
   }
   
   .nav-pills .nav-item .nav-link:hover{
-    background-color: #FFC576;
+    /* background-color: #FFC576; */
+    background-color: rgb(180, 120, 36);
     border-radius: 0px;
+    color: rgba(255,255,255,0.85);
   }
   
   
@@ -1335,13 +1380,16 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
  .nav-pills .nav-item .nav-link.active {
   color: #fff;
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
 }
 
 .nav-pills .nav-item .nav-link:hover{
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
+  color: rgba(255,255,255,0.85);
 }
 
 
@@ -1435,13 +1483,16 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
 .nav-pills .nav-item .nav-link.active {
   color: #fff;
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
 }
 
 .nav-pills .nav-item .nav-link:hover{
-  background-color: #FFC576;
+  /* background-color: #FFC576; */
+  background-color: rgb(180, 120, 36);
   border-radius: 0px;
+  color: rgba(255,255,255,0.85);
 }
 }
 
