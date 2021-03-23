@@ -1051,6 +1051,10 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   padding: 0.5rem;
 }
 
+.modal {
+  overflow-y:auto;
+}
+
 .md-txt{
   text-align: justify;
 }
