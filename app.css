@@ -12,6 +12,13 @@
     background-position: center;
   }
 
+  /* #profile {
+    background: url('./assets/profile-pic.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
   .black-overlay {
     background: #000000e6;
     height: 100%;
@@ -27,6 +34,10 @@
          transparent
        );
 
+  }
+
+  .ft-color{
+    background: #000000e6;
   }
 
 
@@ -46,6 +57,10 @@ body{
   font-size: 1.25rem;
   font-weight: 700;
   padding: 0px;
+}
+
+.des-text{
+  display: block;
 }
 
 .brand-style{
@@ -127,7 +142,7 @@ body{
 
  
   .resize-font {
-    font-size: 17px;
+    font-size: 0.9rem;
     font-weight: 100;
 }
 
@@ -251,6 +266,11 @@ text-align: center;
 
 
 /* About Page */
+
+.about-style{
+color: rgb(180, 120, 36);
+}
+
 .about-padding{
   padding-top:4rem;
   padding-bottom: 4rem;
@@ -275,7 +295,7 @@ text-align: center;
 .about-p {
   display: flex;
   font-size: 1rem;
-  text-align: left;
+  text-align: justify;
 }
 .adjust{
   display: flex;
@@ -301,7 +321,7 @@ text-align: center;
   height:390px;
   /* border: 10px solid red; */
   /* background: linear-gradient(to right, rgba(0, 255, 0, 0.2),rgba(0, 255, 0, 0.2)) , url('assets/pic2.jpg') no-repeat center /cover ; */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url('assets/pic2.jpg') no-repeat center /cover ;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url('assets/pic20.jpg') no-repeat center /cover ;
 }
 .resume-btn{
   background-color: #131313;
@@ -359,7 +379,7 @@ text-align: center;
 .about-p {
   display: flex;
   font-size: 0.9rem;
-  text-align: center;
+  text-align: justify;
   /* padding: 1rem 1rem; */
   padding: 1rem 1.2rem;
   padding-left: 2rem;
@@ -404,6 +424,7 @@ text-align: center;
 .profile-padding{
   padding-top:5rem;
   padding-bottom: 5rem;
+  background: #000000e6;
 }
 
 .nav.nav-pills .nav-item .nav-link {
@@ -462,7 +483,7 @@ cursor: pointer;
 }
 
 .fnt {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -569,7 +590,7 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
     }
 
     .h4-text{
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
     .resize-font {
       font-size: 0.8rem;
@@ -1024,6 +1045,16 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 
 
 /* Project Section */
+
+.modal-text{
+  display: block;
+  padding: 0.5rem;
+}
+
+.md-txt{
+  text-align: justify;
+}
+
 .link-disabled{
   opacity: .4;
   cursor: default !important;
