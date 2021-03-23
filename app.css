@@ -558,7 +558,7 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
 }
 
 .img-fluid {
-  max-width: 70%;
+  /* max-width: 70%; */
   height: auto;
 }
 
