@@ -547,6 +547,12 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   padding-left: 5rem;
 }
 
+/* @media(max-width:995px){
+  .h4-text{
+    font-size: 0.8rem;
+  }
+} */
+
 @media(max-width:995px){
   .pan-view{
     height: auto;
@@ -562,6 +568,12 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   height: auto;
 }
 
+}
+
+@media(max-width:1200px){
+  .card-style{
+  padding: 4px 20px;
+  }
 }
 
 @media(max-width:755px){
