@@ -1062,6 +1062,9 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   display: block;
   padding: 0.5rem;
 }
+.sub-txt {
+  display: block;
+}
 
 .modal {
   overflow-y:auto;
