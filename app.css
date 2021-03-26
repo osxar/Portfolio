@@ -360,18 +360,12 @@ color: rgb(180, 120, 36);
 .custom-img-fluid {
       max-width: 100%;
       height: auto;
-      /* padding-left: 0rem; */
       padding-left: 1.5rem;
 }
 .profile-img {
   max-width: 100%;
-      height: auto;
-      /* padding-left: 0rem; */
-      padding-left: 1.5rem;
-  /* width:500px;
-  height:665px; */
-  /* max-width: 60%;
-  height: auto; */
+  height: auto;
+  padding-left: 1.5rem;
   width:284px;
   height:379px;
   /* border: 10px solid red; */
@@ -546,12 +540,6 @@ box-shadow: 1px 1px 1px 0px rgb(255 197 118 / 30%);
   padding-right: 5rem;
   padding-left: 5rem;
 }
-
-/* @media(max-width:995px){
-  .h4-text{
-    font-size: 0.8rem;
-  }
-} */
 
 @media(max-width:995px){
   .pan-view{
