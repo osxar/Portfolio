@@ -161,7 +161,6 @@ body{
   
 }
 
-
 /* Home style */
 
 /* project */
@@ -188,8 +187,6 @@ body{
 
 .text-c {
   font-family: 'Ubuntu', sans-serif;
-  /* font-size: 40px; */
-  /* font-size: 30px; */
   font-size: 2.5rem;
   margin: 5px 0;
 }
