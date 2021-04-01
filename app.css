@@ -109,7 +109,6 @@ body{
 }
 }
   
-  
   .change {
     display: inline;
     color: #A6A6A6;
@@ -118,7 +117,6 @@ body{
   .change:hover {
     color: #A6A6A6;
   }
-
   
   .project {
     height:100vh ;
@@ -132,7 +130,6 @@ body{
       padding-right: 0px;
       background-color: rgba(31, 35, 54,1);
     }
-
  
   .resize-font {
     font-size: 0.9rem;
@@ -153,8 +150,6 @@ body{
 
 /* ending of styles */
 
-
-
 .text-content {
   padding-top: 260px;
   padding-left: 140px;
@@ -173,14 +168,11 @@ body{
 
 .text-a {
   font-family: 'Ubuntu', sans-serif;
-  /* font-size: 27px; */
-  /* font-size: 30px; */
   font-size: 2.5rem;
 }
 
 .text-b {
   font-family: 'Ubuntu', sans-serif;
-  /* font-size: 85px; */
   font-size: 5.7rem;
   font-weight: 600;
   margin-left: -3px;
@@ -188,16 +180,12 @@ body{
 
 .text-c {
   font-family: 'Ubuntu', sans-serif;
-  /* font-size: 40px; */
-  /* font-size: 30px; */
   font-size: 2.5rem;
   margin: 5px 0;
 }
 
 
 .project .text-b span {
-  /* color: #c0392b; */
-  /* color: crimson; */
   color: rgb(180, 120, 36);
 }
 
@@ -206,8 +194,6 @@ body{
   display: flex;
   justify-content: end;
   align-items: center;
-  /* padding-left: 5rem; */
-  /* text-align-last: center; */
 }
 
 .home-lower{
