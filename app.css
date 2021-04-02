@@ -256,10 +256,7 @@ color: rgb(180, 120, 36);
 
 .header-section2{
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  /* text-align: center; */
-  /* padding-top: 2.6rem; */
 }
 .about-body {
   padding-top: 5rem;
@@ -291,10 +288,6 @@ color: rgb(180, 120, 36);
   max-width: 100%;
   height: auto;
   padding-left: 3rem;
-  /* width:500px;
-  height:665px; */
-  /* max-width: 60%;
-  height: auto; */
   width:290px;
   height:390px;
   /* border: 10px solid red; */
@@ -359,11 +352,9 @@ color: rgb(180, 120, 36);
 
 .header-section2{
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  /* text-align: center; */
   padding-top: 1.7rem;
-    font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 .about-body {
